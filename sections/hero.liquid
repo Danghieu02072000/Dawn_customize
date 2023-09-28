@@ -4,7 +4,20 @@
   <h2 class="hero__heading">{{ section.settings.heading }}</h2>
   <p class="hero__desc">{{ section.settings.desc }}</p>
   {% form 'create_customer' %}
-    <input type="text" placeholder="Enter your delivery location">
+<div class=" max-w-full sm:max-w-[464px] md:max-w-[370px] lg:max-w-[464px] flex border border-green rounded-2xl items-stretch overflow-hidden  mb-8 lg:mb-12">
+                            <div class="px-3 flex items-center flex-1 ">
+                                <input type="text" class="outline-none placeholder:text-base  text-base leading-4  flex-1 overflow-hidden mr-3" placeholder="Enter your delivery location">
+                                <img src="../src/img/icon_location.png" alt="" class="w-6 h-6 ">
+                            </div>
+                            <div class="bg-green h-full flex gap-3 px-0 py-3 sm:pl-5 sm:pr-3 items-center">
+                                <span class="text-base text-white hidden sm:block md:hidden lg:block">Discover</span>
+                                <button class="w-10 h-10 bg-inherit sm:bg-white rounded-lg flex justify-center items-center text-white sm:text-black hover:bg-inherit hover:border-2 hover:border-white hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
 {% endform %}
 </div>
 <div class="hero-img">
