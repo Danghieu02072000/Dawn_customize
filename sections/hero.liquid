@@ -4,8 +4,8 @@
   <h2 class="hero__heading">{{ section.settings.heading }}</h2>
   <p class="hero__desc">{{ section.settings.desc }}</p>
   {% form 'create_customer' %}
-                    <div class="">
-                            <div class="px-3 flex items-center flex-1 ">
+                    <div class="hero-btn">
+                            <div class="hero-btn__input">
                                 <input type="text" class="" placeholder="Enter your delivery location">
                                 <img src="{{ section.settings.img_btn }}" alt="" >
                             </div>
@@ -24,6 +24,16 @@
 </div>
 </div>
 <style>
+  .hero-btn {
+    border: 1px solid green;
+    outline: none;
+    border-radius: 1rem;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 270px;
+  }
   h1,h2,h3, p {
     margin: 0;
   }
