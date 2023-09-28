@@ -1,24 +1,41 @@
-<div class="">
-    <h2>{{ section.title1 }}</h2>
-</div>
+
+<h1>{{ section.settings.heading }}</h1>
+<div class="customeContainer owl-carousel">
+
+
 
 {% schema %}
   {
-    "name": "Section name",
-    "tag" : "section",
-    "class": "hero",
-    "settings" : [
+    "name": "Hero",
+    "settings": [
       {
-        "label" : "Hero",
         "type": "text",
-        "id": "hero"
+        "id": "heading",
+        "label": "heading",
+        "default": "This is Slick Slider"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Slide",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }, {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Slick Slider"
       }
     ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
