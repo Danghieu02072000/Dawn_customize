@@ -9,7 +9,7 @@
                                 <input type="text" class="hero__input" placeholder="Enter your delivery location">
                                 <img src="{{ section.settings.img_btn | img_url}}" alt="" width="10px" height="10px" >
                             </div>
-                            <div class="">
+                            <div class="hero__wrapper-btn">
                                 <span class="">Discover</span>
                                 <a class="" href="#"> > </a>
                             </div>
@@ -85,6 +85,12 @@
   }
   .hero__input:focus-visible  {
     box-shadow: none;
+  }
+  .hero__wrapper-btn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: green;
   }
 </style>
 {% schema %}
