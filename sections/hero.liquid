@@ -19,7 +19,6 @@
 {% endform %}
 </div>
 <div class="hero-img">
-  
   <img src="{{ section.settings.img | img_url : "master" }}" class="hero__image" >
 </div>
 </div>
@@ -74,6 +73,11 @@
     line-height: 28px;
     margin-top: 24px;
     color: #646464
+  }
+  .hero-btn__input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
   }
 </style>
 {% schema %}
