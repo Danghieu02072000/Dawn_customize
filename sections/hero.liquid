@@ -1,7 +1,20 @@
+<div class="">
+    <h2>{{ section.title1 }}</h2>
+
+</div>
+
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "tag" : "section",
+    "class": "hero",
+    "settings" : [
+      {
+        "label" : "Hero",
+        "type": "text",
+        "id": "hero"
+      }
+    ]
   }
 {% endschema %}
 
