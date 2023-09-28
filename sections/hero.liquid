@@ -8,7 +8,19 @@
   <img src="{{ section.settings.img | img_url : "master" }}" class="hero__image" >
 </div>
 </div>
-
+<style>
+  .hero-wrapper {
+    display: flex;
+    gap: 40px;
+  }
+  .hero-img {
+    width: 45%;
+    
+  }
+    .hero-img > img {
+      width: 100%;
+    }
+</style>
 {% schema %}
   {
     "name" : "Herro",
