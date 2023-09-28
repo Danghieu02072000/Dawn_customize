@@ -1,0 +1,16 @@
+
+  .customeContainer {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+  }
+  .customContainer__slide {
+    width: calc(100% / 4 - 40px);
+    padding: 1em;
+    box-shadow: 0 10px 13px -7px #787272;
+  }
+  .customContainer__title {}
+  .customContainer__image img {
+    width: 100%;
+  }
