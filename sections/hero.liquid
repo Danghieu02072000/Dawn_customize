@@ -3,6 +3,9 @@
   <h2 class="hero__heading">{{ section.settings.heading }}</h2>
   <p class="hero__desc">{{ section.settings.desc }}</p>
 </div>
+<div class="hero-img">
+  <img src="{{ section.settings.img | img_url : "master" }}" class="hero__image" >
+</div>
 
 {% schema %}
   {
@@ -11,7 +14,7 @@
       {
         "type": "text",
         "id" : "title",
-        "label": "Heading Hero",
+        "label": "Title Hero",
         "default": "this is Hero"
       },
       {
@@ -23,17 +26,20 @@
       {
         "type": "text",
         "id" : "desc",
-        "label": "Heading Hero",
+        "label": "DESC Hero",
         "default": "this is Hero"
+      },
+      {
+        "type": "image_picker",
+        "id" : "img",
+        "label": "Img Hero"
       }
-      
     ],
     "presets": [
       {
         "name": "Hero"
       }
     ]
-    
   }
 {% endschema %}
 
