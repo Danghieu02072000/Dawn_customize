@@ -1,26 +1,30 @@
+{{ "owl.carousel.min.css" | asset_url | stylesheet_tag }}
+{{ "owl.theme.default.min.css" | asset_url | stylesheet_tag }}
 <h1>{{ section.settings.heading }}</h1>
-
-
-<div class="customeContainer">
+<div class="customeContainer owl-carousel">
   {% for block in section.blocks %}
     <div class="customContainer__slide">
       <h2 class="customContainer__title">
         {{ block.settings.title }}</h2>
       <div class="customContainer__image">
-        <img src="{{ "Img_aoday3.jpg" | asset_url }}" alt="">
+        <img
+          src="{{ block.settings.image | img_url : "master" }}"
+          alt=""
+          loading="lazy">
       </div>
     </div>
   {% endfor %}
 </div>
+{{ "jquery.min.js" | asset_url | script_tag }}
+{{ "owl.carousel.min.js" | asset_url | script_tag }}
+{{ "main123.js" | asset_url | script_tag }}
 <style>
   .customeContainer {
     padding: 1rem;
     display: flex;
-    
-    gap: 30px;
+    gap: 40px;
   }
   .customContainer__slide {
-    width: calc(100% / 4 - 30px);
     padding: 1em;
     box-shadow: 0 10px 13px -7px #787272;
   }
@@ -42,13 +46,17 @@
     ],
     "blocks": [
       {
-        "type": "columns",
+        "type": "column",
         "name": "Slide",
         "settings": [
           {
             "type": "text",
             "id": "title",
             "label": "Title"
+          }, {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
           }
         ]
       }
