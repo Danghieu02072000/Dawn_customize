@@ -69,6 +69,66 @@
     },
     "0a7f0a02-e4f3-444a-8144-0fb653b80604": {
       "type": "slick-slider",
+      "blocks": {
+        "640f3c51-9426-4d91-bc2f-066b1f06a433": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/putting-on-your-shoes_925x_42b06f6d-64b7-4550-9427-a41c619cb489.jpg"
+          }
+        },
+        "65a45cb9-8606-4524-99ad-6f72ca9f5487": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/woman-in-the-city_925x_a7854738-712d-4696-8aea-bc4738430cfd.jpg"
+          }
+        },
+        "ac48a85b-5dea-444c-9a94-3f948cf031b2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/man-adjusts-blue-tuxedo-bowtie_925x_fc4ed961-2442-4e99-910d-575ecc3da95e.jpg"
+          }
+        },
+        "a056ecce-16e3-48c5-b2fa-462a779bcf5f": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/urban-fashion_925x_293647f5-0b97-4461-8207-884fe93d4f24.jpg"
+          }
+        },
+        "061cba8e-bb0b-4a0c-a857-a32026535b38": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/smiling-woman-poses_925x_bcc677f9-aaab-4537-87ac-a2367436df60.jpg"
+          }
+        },
+        "c902e4d8-0c41-43ab-9f1a-566aeed76322": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/young-hip-woman-at-carnival_925x_f55057d7-20d0-47f8-bb30-6bfd3a3bc36f.jpg"
+          }
+        },
+        "903e8ec4-c751-4e3b-8db7-184652500dd2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/autumn-photographer-taking-picture_925x_6092311a-c2e5-4fb1-8484-b3b5d2eb88ae.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "640f3c51-9426-4d91-bc2f-066b1f06a433",
+        "65a45cb9-8606-4524-99ad-6f72ca9f5487",
+        "ac48a85b-5dea-444c-9a94-3f948cf031b2",
+        "a056ecce-16e3-48c5-b2fa-462a779bcf5f",
+        "061cba8e-bb0b-4a0c-a857-a32026535b38",
+        "c902e4d8-0c41-43ab-9f1a-566aeed76322",
+        "903e8ec4-c751-4e3b-8db7-184652500dd2"
+      ],
       "settings": {
         "heading": "This is Slick Slider"
       }
