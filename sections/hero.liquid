@@ -5,8 +5,8 @@
   <p class="hero__desc">{{ section.settings.desc }}</p>
   {% form 'create_customer' %}
                     <div class="hero-btn">
-                            <div class="hero-btn__input">
-                                <input type="text" class="" placeholder="Enter your delivery location">
+                            <div class="hero__wrapper-input">
+                                <input type="text" class="hero__input" placeholder="Enter your delivery location">
                                 <img src="{{ section.settings.img_btn | img_url}}" alt="" width="10px" height="10px" >
                             </div>
                             <div class="">
@@ -24,6 +24,7 @@
 </div>
 <style>
   .hero-btn {
+    overflow: hidden;
     border: 1px solid green;
     outline: none;
     border-radius: 1rem;
@@ -74,10 +75,14 @@
     margin-top: 24px;
     color: #646464
   }
-  .hero-btn__input {
+  .hero__wrapper-input {
     display: flex;
     gap: 10px;
     align-items: center;
+  }
+  .hero__input {
+    outline: none;
+    border: none;
   }
 </style>
 {% schema %}
