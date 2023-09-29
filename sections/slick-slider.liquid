@@ -28,15 +28,7 @@
     </div>
   {% endfor %}
 </div>
-<script>
-  $('.customeContainer').owlCarousel({
-  loop:true,
-  margin:30,
-  nav:true,
-  autoHeight: true,
-  items: num_columns
-})
-</script>
+
 {{ "jquery.min.js" | asset_url | script_tag }}
 {{ "owl.carousel.min.js" | asset_url | script_tag }}
 
@@ -207,3 +199,13 @@
     ]
   }
 {% endschema %}
+
+<script>
+  $('.customeContainer').owlCarousel({
+  loop:true,
+  margin:30,
+  nav:true,
+  autoHeight: true,
+  items: num_columns
+})
+</script>
