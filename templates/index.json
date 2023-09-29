@@ -163,12 +163,73 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "962a67be-9e96-4f34-a7c9-fabf28be9154": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "47ea4e32-cacc-402f-8595-a992a8f7cda3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21304139514167__47ea4e32-cacc-402f-8595-a992a8f7cda3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--21304139514167__47ea4e32-cacc-402f-8595-a992a8f7cda3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21304139514167__47ea4e32-cacc-402f-8595-a992a8f7cda3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21304139514167__47ea4e32-cacc-402f-8595-a992a8f7cda3-heading-1",
+        "template--21304139514167__47ea4e32-cacc-402f-8595-a992a8f7cda3-text-1",
+        "template--21304139514167__47ea4e32-cacc-402f-8595-a992a8f7cda3-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "f3781104-123b-4c3f-842b-7e666f2338e3",
     "0a7f0a02-e4f3-444a-8144-0fb653b80604",
     "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c",
-    "featured_collection"
+    "featured_collection",
+    "962a67be-9e96-4f34-a7c9-fabf28be9154",
+    "47ea4e32-cacc-402f-8595-a992a8f7cda3"
   ]
 }
