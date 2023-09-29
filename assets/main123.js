@@ -1,3 +1,4 @@
+ console.log(window.number_columns)
 $('.customeContainer').owlCarousel({
   loop:true,
   margin:30,
