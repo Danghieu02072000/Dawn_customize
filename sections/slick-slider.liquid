@@ -1,6 +1,9 @@
 {{ "owl.carousel.min.css" | asset_url | stylesheet_tag }}
 {{ "owl.theme.default.min.css" | asset_url | stylesheet_tag }}
 <h1>{{ section.settings.heading }}</h1>
+<div>
+  <img src="" alt="">
+</div>
 <div class="customeContainer owl-carousel">
   {% for block in section.blocks %}
     <div class="customContainer__slide">
@@ -77,6 +80,11 @@
         "id": "heading",
         "label": "heading",
         "default": "This is Slick Slider"
+      },
+      {
+        "type": "image_picker",
+        "id" : "icon_heading",
+        "label": "Icon Heading"
       }
     ],
     "blocks": [
