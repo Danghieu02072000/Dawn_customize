@@ -1,6 +1,6 @@
 <div class="blog-show"> 
-    <h2 class="blog-show__title"></h2>
-    <h2 class="blog-show__heading"></h2>
+    <h2 class="blog-show__title"> {{ section.settings.title }}</h2>
+    <h2 class="blog-show__heading"> {{ section.settings.heading }}</h2>
     <div class="blog-show__list"> 
       {% for block in section.blocks %}
           <div class="blog-show__item">
