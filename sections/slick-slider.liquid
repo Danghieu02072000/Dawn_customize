@@ -2,10 +2,11 @@
 {{ "owl.theme.default.min.css" | asset_url | stylesheet_tag }}
 <div class="heading__wrapper">
   <h1>{{ section.settings.heading }}</h1>
-<div class="heading__img">
-  <img src="{{ section.settings.icon_heading | image_url}}" alt="" width="18px" height="18px" >
-  
-</div>
+  {% if section.settings.icon_heading %}}
+    <div class="heading__img">
+  <img src="{{ section.settings.icon_heading | image_url}}" alt="" width="28px" height="28px" >
+  </div>
+  {% endif %}}
 </div>
 
 <div class="customeContainer owl-carousel">
