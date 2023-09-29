@@ -128,8 +128,37 @@
     },
     "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c": {
       "type": "Blog-hi",
+      "blocks": {
+        "edb83dae-2419-4fa5-80e9-8d4e32261fc5": {
+          "type": "column",
+          "settings": {
+            "item_title": "",
+            "item_text": ""
+          }
+        },
+        "74f10af0-4015-43ca-af74-9399fcd8a460": {
+          "type": "column",
+          "settings": {
+            "item_title": "",
+            "item_text": ""
+          }
+        },
+        "25e2d920-b701-4e4b-bc1e-f705083d94a3": {
+          "type": "column",
+          "settings": {
+            "item_title": "",
+            "item_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "edb83dae-2419-4fa5-80e9-8d4e32261fc5",
+        "74f10af0-4015-43ca-af74-9399fcd8a460",
+        "25e2d920-b701-4e4b-bc1e-f705083d94a3"
+      ],
       "settings": {
-        "heading": ""
+        "title": "Hungry?",
+        "heading": "Wait a minute for delicious."
       }
     }
   },
