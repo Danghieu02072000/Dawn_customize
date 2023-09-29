@@ -12,7 +12,7 @@
   .block-heading__title {
     font-size: 36px;
     line-height: 40px;
-    color: rgb(255 77 32 )
+    color: {{ section.settings.text_color}}
   }
   .block-heading__heading {
     margin: 0 auto;
@@ -43,9 +43,14 @@
         "label" : "Title"
       },
       {
-        "type" : "color",
+        "type" : "text",
         "id" : "heading",
         "label" : "Heading"
+      },
+        {
+        "type" : "color",
+        "id" : "text_color",
+        "label" : "Text Color"
       },
         {
         "type" : "text",
