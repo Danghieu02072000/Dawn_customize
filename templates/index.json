@@ -73,7 +73,8 @@
         "903e8ec4-c751-4e3b-8db7-184652500dd2"
       ],
       "settings": {
-        "heading": "Food Near Me"
+        "heading": "Food Near Me",
+        "icon_heading": "shopify:\/\/shop_images\/fire.png"
       }
     },
     "featured_collection": {
