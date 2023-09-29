@@ -3,7 +3,7 @@ $('.customeContainer').owlCarousel({
   margin:30,
   nav:true,
   autoHeight: true,
-  items: window.num_columns,
+  items: window.num_columns
   // responsive:{
   //     0:{
   //         items:2
