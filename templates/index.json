@@ -95,7 +95,8 @@
       ],
       "settings": {
         "heading": "Food Near Me",
-        "icon_heading": "shopify:\/\/shop_images\/fire.png"
+        "icon_heading": "shopify:\/\/shop_images\/fire.png",
+        "num_columns": 3
       }
     },
     "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c": {
@@ -168,6 +169,7 @@
       "type": "heading-block",
       "settings": {
         "title": "Newar Me",
+        "text_color": "#ff4d20",
         "heading": "Our regular updated new blogs.",
         "desc": "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 20mins."
       }
