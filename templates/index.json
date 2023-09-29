@@ -17,49 +17,70 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p3.png"
+            "image": "shopify:\/\/shop_images\/img-p3.png",
+            "item_heading": "Chicken",
+            "item_text": "Starting",
+            "item_price": "4.50"
           }
         },
         "65a45cb9-8606-4524-99ad-6f72ca9f5487": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p4.png"
+            "image": "shopify:\/\/shop_images\/img-p4.png",
+            "item_heading": "French",
+            "item_text": "Starting",
+            "item_price": "8.00"
           }
         },
         "ac48a85b-5dea-444c-9a94-3f948cf031b2": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p2.png"
+            "image": "shopify:\/\/shop_images\/img-p2.png",
+            "item_heading": "Drinks",
+            "item_text": "Starting",
+            "item_price": "12.00"
           }
         },
         "a056ecce-16e3-48c5-b2fa-462a779bcf5f": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img_p1.png"
+            "image": "shopify:\/\/shop_images\/img_p1.png",
+            "item_heading": "Pizza",
+            "item_text": "Starting",
+            "item_price": "14.00"
           }
         },
         "061cba8e-bb0b-4a0c-a857-a32026535b38": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p3.png"
+            "image": "shopify:\/\/shop_images\/img-p3.png",
+            "item_heading": "Chicken",
+            "item_text": "Starting",
+            "item_price": "4.50"
           }
         },
         "c902e4d8-0c41-43ab-9f1a-566aeed76322": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p4.png"
+            "image": "shopify:\/\/shop_images\/img-p4.png",
+            "item_heading": "French",
+            "item_text": "Starting",
+            "item_price": "8.00"
           }
         },
         "903e8ec4-c751-4e3b-8db7-184652500dd2": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p2.png"
+            "image": "shopify:\/\/shop_images\/img-p2.png",
+            "item_heading": "Drinks",
+            "item_text": "Starting",
+            "item_price": "12.00"
           }
         }
       },
