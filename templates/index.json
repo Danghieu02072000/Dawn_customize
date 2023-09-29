@@ -1,70 +1,13 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
+    "f3781104-123b-4c3f-842b-7e666f2338e3": {
+      "type": "hero",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "title": "Hungry?",
+        "heading": "Wait a minute for delicious.",
+        "desc": "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 20mins.",
+        "img": "shopify:\/\/shop_images\/Content.png",
+        "img_btn": "shopify:\/\/shop_images\/icon_location.png"
       }
     },
     "0a7f0a02-e4f3-444a-8144-0fb653b80604": {
@@ -74,49 +17,70 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/putting-on-your-shoes_925x_42b06f6d-64b7-4550-9427-a41c619cb489.jpg"
+            "image": "shopify:\/\/shop_images\/img-p3.png",
+            "item_heading": "Chicken",
+            "item_text": "Starting",
+            "item_price": "45000"
           }
         },
         "65a45cb9-8606-4524-99ad-6f72ca9f5487": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/woman-in-the-city_925x_a7854738-712d-4696-8aea-bc4738430cfd.jpg"
+            "image": "shopify:\/\/shop_images\/img-p4.png",
+            "item_heading": "French",
+            "item_text": "Starting",
+            "item_price": "80000"
           }
         },
         "ac48a85b-5dea-444c-9a94-3f948cf031b2": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/man-adjusts-blue-tuxedo-bowtie_925x_fc4ed961-2442-4e99-910d-575ecc3da95e.jpg"
+            "image": "shopify:\/\/shop_images\/img-p2.png",
+            "item_heading": "Drinks",
+            "item_text": "Starting",
+            "item_price": "120000"
           }
         },
         "a056ecce-16e3-48c5-b2fa-462a779bcf5f": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/urban-fashion_925x_293647f5-0b97-4461-8207-884fe93d4f24.jpg"
+            "image": "shopify:\/\/shop_images\/img_p1.png",
+            "item_heading": "Pizza",
+            "item_text": "Starting",
+            "item_price": "140000"
           }
         },
         "061cba8e-bb0b-4a0c-a857-a32026535b38": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/smiling-woman-poses_925x_bcc677f9-aaab-4537-87ac-a2367436df60.jpg"
+            "image": "shopify:\/\/shop_images\/img-p3.png",
+            "item_heading": "Chicken",
+            "item_text": "Starting",
+            "item_price": "45000"
           }
         },
         "c902e4d8-0c41-43ab-9f1a-566aeed76322": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/young-hip-woman-at-carnival_925x_f55057d7-20d0-47f8-bb30-6bfd3a3bc36f.jpg"
+            "image": "shopify:\/\/shop_images\/img-p4.png",
+            "item_heading": "French",
+            "item_text": "Starting",
+            "item_price": "8.00"
           }
         },
         "903e8ec4-c751-4e3b-8db7-184652500dd2": {
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/autumn-photographer-taking-picture_925x_6092311a-c2e5-4fb1-8484-b3b5d2eb88ae.jpg"
+            "image": "shopify:\/\/shop_images\/img-p2.png",
+            "item_heading": "Drinks",
+            "item_text": "Starting",
+            "item_price": "120000"
           }
         }
       },
@@ -130,13 +94,110 @@
         "903e8ec4-c751-4e3b-8db7-184652500dd2"
       ],
       "settings": {
-        "heading": "This is Slick Slider"
+        "heading": "Food Near Me",
+        "icon_heading": "shopify:\/\/shop_images\/fire.png",
+        "num_columns": 4
+      }
+    },
+    "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c": {
+      "type": "Blog-hi",
+      "blocks": {
+        "edb83dae-2419-4fa5-80e9-8d4e32261fc5": {
+          "type": "column",
+          "settings": {
+            "item_title": "Easy to order",
+            "item_text": "n restaurant-controlled online food ordering, the restaurant ..",
+            "item_img": "shopify:\/\/shop_images\/img_note.png"
+          }
+        },
+        "74f10af0-4015-43ca-af74-9399fcd8a460": {
+          "type": "column",
+          "settings": {
+            "item_title": "Easy to order",
+            "item_text": "n restaurant-controlled online food ordering, the restaurant ..",
+            "item_img": "shopify:\/\/shop_images\/img_map.png"
+          }
+        },
+        "25e2d920-b701-4e4b-bc1e-f705083d94a3": {
+          "type": "column",
+          "settings": {
+            "item_title": "Easy to order",
+            "item_text": "n restaurant-controlled online food ordering, the restaurant ..",
+            "item_img": "shopify:\/\/shop_images\/img_sawich.png"
+          }
+        }
+      },
+      "block_order": [
+        "edb83dae-2419-4fa5-80e9-8d4e32261fc5",
+        "74f10af0-4015-43ca-af74-9399fcd8a460",
+        "25e2d920-b701-4e4b-bc1e-f705083d94a3"
+      ],
+      "settings": {
+        "title": "Hungry?",
+        "heading": "Wait a minute for delicious."
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Get your hands on our bestsellers 🔥",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "4a942430-a7be-478b-b644-45cad5b2c4dc": {
+      "type": "heading-block",
+      "settings": {
+        "title": "Newar Me",
+        "text_color": "#ff4d20",
+        "heading": "Our regular updated new blogs.",
+        "desc": "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 20mins."
+      }
+    },
+    "962a67be-9e96-4f34-a7c9-fabf28be9154": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
+    "f3781104-123b-4c3f-842b-7e666f2338e3",
+    "0a7f0a02-e4f3-444a-8144-0fb653b80604",
+    "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c",
     "featured_collection",
-    "0a7f0a02-e4f3-444a-8144-0fb653b80604"
+    "4a942430-a7be-478b-b644-45cad5b2c4dc",
+    "962a67be-9e96-4f34-a7c9-fabf28be9154"
   ]
 }

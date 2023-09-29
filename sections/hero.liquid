@@ -1,0 +1,159 @@
+<div class="hero-wrapper">
+<div class="hero-infor">
+  <h2 class="hero__title"> {{ section.settings.title }}</h2>
+  <h2 class="hero__heading">{{ section.settings.heading }}</h2>
+  <p class="hero__desc">{{ section.settings.desc }}</p>
+  {% form 'create_customer' %}
+                    <div class="hero-btn">
+                            <div class="hero__wrapper-input">
+                                <input type="text" class="hero__input" placeholder="Enter your delivery location">
+                                <img src="{{ section.settings.img_btn | img_url}}" alt="" width="15px" height="15px" >
+                            </div>
+                            <div class="hero__wrapper-btn">
+                                <span class="">Discover</span>
+                                <a class="" href="#"> > </a>
+                            </div>
+                      </div>
+{% endform %}
+</div>
+<div class="hero-img">
+  <img src="{{ section.settings.img | img_url : "master" }}" class="hero__image" >
+</div>
+</div>
+<style>
+  .hero-btn {
+    background-color: #fff;
+    margin-top: 32px;
+    overflow: hidden;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 1rem;
+    height: 55px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 330px;
+  }
+  h1,h2,h3, p {
+    margin: 0;
+  }
+  .hero-wrapper {
+    max-width: 120rem;
+    padding: 0 50px; 
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  .hero-img {
+    width: 45%;
+    background-color: #ffbb27;
+    border-radius: 1rem;
+  }
+  .hero-infor {
+    width: 45%;
+  }
+  .hero-img > img {
+      width: 100%;
+  }
+  .hero__title {
+    font-size: 38px;
+    color: #ff4d20;
+    line-height: 40px;
+    margin-top: 20px;
+  }
+  .hero__heading {
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 68px;
+    margin-top: 16px;
+  }
+  .hero__desc {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+    color: #646464
+  }
+  .hero__wrapper-input {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .hero__input {
+    padding-left: 15px;
+    outline: none;
+    border: none;
+  }
+  .hero__input:focus-visible  {
+    box-shadow: none;
+  }
+  .hero__wrapper-btn {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 100%;
+    gap: 5px;
+    color: #fff;
+  }
+    .hero__wrapper-btn > a {
+      border-radius: 5px;
+      color: green;
+      display:flex;
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+</style>
+{% schema %}
+  {
+    "name" : "Herro",
+    "settings": [
+      {
+        "type": "text",
+        "id" : "title",
+        "label": "Title Hero",
+        "default": "this is Hero"
+      },
+      {
+        "type": "text",
+        "id" : "heading",
+        "label": "Heading Hero",
+        "default": "this is Hero"
+      },
+      {
+        "type": "text",
+        "id" : "desc",
+        "label": "DESC Hero",
+        "default": "this is Hero"
+      },
+      {
+        "type": "image_picker",
+        "id" : "img",
+        "label": "Img Hero"
+      },
+      {
+        "type": "image_picker",
+        "id" : "img_btn",
+        "label": "Img Button"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hero"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
