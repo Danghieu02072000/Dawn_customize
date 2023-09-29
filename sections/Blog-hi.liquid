@@ -4,7 +4,7 @@
     <div class="blog-show__list"> 
       {% for block in section.blocks %}
           <div class="blog-show__item">
-            <img src="{{ block.settings.item_img }}" alt="" >
+            <img src="{{ block.settings.item_img | image_url }}" alt="" >
             <h3 class="blog-show__item-heading"> {{ block.settings.item_title }}</h3>
             <p class="blog-show__item-desc"> {{ block.settings.item_text }}</p>
           </div>
