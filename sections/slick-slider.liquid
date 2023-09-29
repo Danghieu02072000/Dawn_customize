@@ -28,10 +28,12 @@
     </div>
   {% endfor %}
 </div>
-
+<script>
+  window.number_columns = {{ section.settings.num_columns}};
+</script>
 {{ "jquery.min.js" | asset_url | script_tag }}
 {{ "owl.carousel.min.js" | asset_url | script_tag }}
-
+{{ "main123.js" | asset_url | script_tag }}
 <style>
   .customContainer__item-info {
     display: flex;
@@ -199,13 +201,3 @@
     ]
   }
 {% endschema %}
-
-<script>
-  $('.customeContainer').owlCarousel({
-  loop:true,
-  margin:30,
-  nav:true,
-  autoHeight: true,
-  items: num_columns
-})
-</script>
