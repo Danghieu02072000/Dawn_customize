@@ -4,6 +4,6 @@ $('.customeContainer').owlCarousel({
   margin:30,
   nav:true,
   autoHeight: true,
-  items: window.number_columns;
+  items: window.number_columns
 });
  console.log(window.number_columns)
