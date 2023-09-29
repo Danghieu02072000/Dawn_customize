@@ -1,11 +1,9 @@
 {{ "owl.carousel.min.css" | asset_url | stylesheet_tag }}
 {{ "owl.theme.default.min.css" | asset_url | stylesheet_tag }}
 <div class="heading__wrapper">
-  <h1>{{ section.settings.heading }}</h1>
-  {% if section.settings.icon_heading %}}
-    <div class="heading__img">
+  <h2 class="heading__text">{{ section.settings.heading }}</h2>
+  {% if section.settings.icon_heading %}
   <img src="{{ section.settings.icon_heading | image_url}}" alt="" width="28px" height="28px" >
-  </div>
   {% endif %}
 </div>
 
@@ -27,6 +25,11 @@
 {{ "owl.carousel.min.js" | asset_url | script_tag }}
 {{ "main123.js" | asset_url | script_tag }}
 <style>
+  .heading__text {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+  }
   .heading__wrapper {
     display: flex;
     gap: 5px;
