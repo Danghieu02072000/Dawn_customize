@@ -1,7 +1,55 @@
+<div class="block-heading"> 
+  <h2 class="block-heading__title">{{ section.settings.title }}</h2>
+  <h2 class="block-heading__heading">{{ section.settings.heading }}</h2>
+  <p class="block-heading__desc">{{ section.settings.desc }}</p>
+</div>
+<style>
+  .block-heading__title {
+    font-size: 36px;
+    line-height: 40px;
+    color: rgb(255 77 32 )
+  }
+  .block-heading__heading {
+    margin: 0 auto;
+    max-width: 440px;
+    margin-top: 10px;
+    font-size: 52px;
+    line-height: 58px;
+    font-weight: 700;
+  }
+  .block-heading__desc {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 270px;
+    color: rgb(100 100 100)
+  }
+</style>
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "settings": [
+      {
+        "type" : "text",
+        "id" : "title",
+        "label" : "Title"
+      },
+      {
+        "type" : "text",
+        "id" : "heading",
+        "label" : "Heading"
+      },
+        {
+        "type" : "text",
+        "id" : "desc",
+        "label" : "DESC"
+      }
+    ],
+    "presets" : [
+      {
+      "name" : "Block Heading"
+    }
+    ] 
   }
 {% endschema %}
 
