@@ -14,9 +14,9 @@
         {{ block.settings.title }}</h2>
       <div class="customContainer__item">
         <div class="customContainer__item-info"> 
-        <h3 class="customContainer__item-heading"> {{ block.settings.item_heading }}</h3>
-        <span class="customContainer__item-text"> {{ block.settings.item_text }}</span>
-        <span class= "customContainer__item-price"> {{ block.settings.item_price }} </span>
+          <h3 class="customContainer__item-heading"> {{ block.settings.item_heading }}</h3>
+          <span class="customContainer__item-text"> {{ block.settings.item_text }}</span>
+          <span class= "customContainer__item-price"> {{ block.settings.item_price }} </span>
         </div>
         <div class="customContainer__item-img"> 
           <img class=""
@@ -32,6 +32,17 @@
 {{ "owl.carousel.min.js" | asset_url | script_tag }}
 {{ "main123.js" | asset_url | script_tag }}
 <style>
+  .customContainer__item {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+    border-radius: 1rem;
+  }
+  .customContainer__item-img img{
+    height: 110px;
+  }
   .slider-home {
     max-width: 120rem;
     margin: 0 auto;
@@ -60,9 +71,6 @@
   .customContainer__title {}
   .customContainer__item-img {
     width: 40%;
-  }
-  .customContainer__item-img img{
-    width: 100%;
   }
       .owl-next {
         width: 35px;
