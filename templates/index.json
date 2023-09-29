@@ -98,34 +98,6 @@
         "icon_heading": "shopify:\/\/shop_images\/fire.png"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c": {
       "type": "Blog-hi",
       "blocks": {
@@ -163,12 +135,40 @@
         "title": "Hungry?",
         "heading": "Wait a minute for delicious."
       }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "f3781104-123b-4c3f-842b-7e666f2338e3",
     "0a7f0a02-e4f3-444a-8144-0fb653b80604",
-    "featured_collection",
-    "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c"
+    "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c",
+    "featured_collection"
   ]
 }
