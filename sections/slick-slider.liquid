@@ -28,6 +28,9 @@
     </div>
   {% endfor %}
 </div>
+<script>
+  window.number_columns = {{ section.settings.num_columns}};
+</script>
 {{ "jquery.min.js" | asset_url | script_tag }}
 {{ "owl.carousel.min.js" | asset_url | script_tag }}
 {{ "main123.js" | asset_url | script_tag }}
@@ -147,6 +150,15 @@
         "type": "image_picker",
         "id" : "icon_heading",
         "label": "Icon Heading"
+      },
+      {
+      "type": "range",
+      "id": "num_columns",
+      "label": "Số lượng cột",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 2
       }
     ],
     "blocks": [
