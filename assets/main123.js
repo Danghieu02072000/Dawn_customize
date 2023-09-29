@@ -11,7 +11,7 @@ $('.customeContainer').owlCarousel({
           items:3
       },
       1024:{
-          items:5
+          items:4
       }
   }
 })
