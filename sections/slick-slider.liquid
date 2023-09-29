@@ -12,11 +12,18 @@
     <div class="customContainer__slide">
       <h2 class="customContainer__title">
         {{ block.settings.title }}</h2>
-      <div class="customContainer__image">
-        <img
+      <div class="customContainer__item">
+        <div class="customContainer__item-info"> 
+        <h3 class="customContainer__item-heading"> {{ block.settings.item_heading }}</h3>
+        <span class="customContainer__item-text"> {{ block.settings.item_text }}</span>
+        <span class= "customContainer__item-price"> {{ block.settings.item_price }} </span>
+        </div>
+        <div class="customContainer__item-img"> 
+          <img class=""
           src="{{ block.settings.image | img_url : "master" }}"
           alt=""
           loading="lazy">
+        </div>
       </div>
     </div>
   {% endfor %}
@@ -51,7 +58,10 @@
     box-shadow: 0 10px 13px -7px #787272;
   }
   .customContainer__title {}
-  .customContainer__image img {
+  .customContainer__item-img {
+    width: 40%;
+  }
+  .customContainer__item-img img{
     width: 100%;
   }
       .owl-next {
@@ -117,10 +127,26 @@
             "type": "text",
             "id": "title",
             "label": "Title"
-          }, {
+          }, 
+          {
             "type": "image_picker",
             "id": "image",
             "label": "Image"
+          },
+                    {
+            "type": "text",
+            "id": "item_heading",
+            "label": "Item Heading"
+          },
+                    {
+            "type": "text",
+            "id": "item_text",
+            "label": "Item Text"
+          },
+                    {
+            "type": "text",
+            "id": "item_price",
+            "label": "Item Price"
           }
         ]
       }
