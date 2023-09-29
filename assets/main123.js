@@ -8,10 +8,10 @@ $('.customeContainer').owlCarousel({
           items:2
       },
       600:{
-          items:3
-      },
-      1100:{
           items:4
+      },
+      1400:{
+          items:5
       }
   }
 })
