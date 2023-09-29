@@ -32,6 +32,20 @@
 {{ "owl.carousel.min.js" | asset_url | script_tag }}
 {{ "main123.js" | asset_url | script_tag }}
 <style>
+  .customContainer__item-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .customContainer__item-heading {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+  .customContainer__item-text {
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(150 150 150)
+  }
   .customContainer__item {
     display: flex;
     gap: 10px;
