@@ -164,6 +164,14 @@
         "padding_bottom": 36
       }
     },
+    "4a942430-a7be-478b-b644-45cad5b2c4dc": {
+      "type": "heading-block",
+      "settings": {
+        "title": "Newar Me",
+        "heading": "Our regular updated new blogs.",
+        "desc": "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 20mins."
+      }
+    },
     "962a67be-9e96-4f34-a7c9-fabf28be9154": {
       "type": "featured-blog",
       "settings": {
@@ -180,14 +188,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "4a942430-a7be-478b-b644-45cad5b2c4dc": {
-      "type": "heading-block",
-      "settings": {
-        "title": "Newar Me",
-        "heading": "Our regular updated new blogs.",
-        "desc": "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 20mins."
-      }
     }
   },
   "order": [
@@ -195,7 +195,7 @@
     "0a7f0a02-e4f3-444a-8144-0fb653b80604",
     "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c",
     "featured_collection",
-    "962a67be-9e96-4f34-a7c9-fabf28be9154",
-    "4a942430-a7be-478b-b644-45cad5b2c4dc"
+    "4a942430-a7be-478b-b644-45cad5b2c4dc",
+    "962a67be-9e96-4f34-a7c9-fabf28be9154"
   ]
 }
