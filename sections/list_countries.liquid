@@ -2,10 +2,9 @@
   <h2 class="list-ul__heading">{{ section.settings.heading }}</h2>
    {% for block in section.blocks %}
      <ul>
+       {%  for block in section.blocks %}
        <li>{{ block.settings.text_item }}</li>
-       <li>{{ block.settings.text_item }}</li>
-       <li>{{ block.settings.text_item }}</li>
-       <li>{{ block.settings.text_item }}</li>
+       {% endfor %}
      </ul>
     {% endfor %}
 </div>
