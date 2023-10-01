@@ -190,6 +190,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "71150d7d-f684-4463-83b9-befe175617b0": {
+      "type": "list_countries",
+      "blocks": {
+        "b7604e94-9c91-4a6c-9fa6-cedd270518ff": {
+          "type": "column",
+          "settings": {
+            "text_item": "This is li"
+          }
+        },
+        "eae6861b-c149-467b-bb22-f9fab02f7ab1": {
+          "type": "column",
+          "settings": {
+            "text_item": "This is li"
+          }
+        }
+      },
+      "block_order": [
+        "b7604e94-9c91-4a6c-9fa6-cedd270518ff",
+        "eae6861b-c149-467b-bb22-f9fab02f7ab1"
+      ],
+      "settings": {
+        "heading": "this is Heading",
+        "number_column": 4
+      }
     }
   },
   "order": [
@@ -198,6 +223,7 @@
     "159bfef3-e329-4ccd-8ba3-cc1ed4e8329c",
     "featured_collection",
     "4a942430-a7be-478b-b644-45cad5b2c4dc",
-    "962a67be-9e96-4f34-a7c9-fabf28be9154"
+    "962a67be-9e96-4f34-a7c9-fabf28be9154",
+    "71150d7d-f684-4463-83b9-befe175617b0"
   ]
 }

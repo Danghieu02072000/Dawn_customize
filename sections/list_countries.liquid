@@ -7,6 +7,9 @@
        {% endfor %}
      </ul>
     {% endfor %}
+    {% if section.settings.show_block %}
+        <p>Bạn đã bật </p>
+    {% endif %}
 </div>
 
 {% schema %}
@@ -20,10 +23,11 @@
         "default": "this is Heading"
       },
       {
-  "type": "paragraph",
-  "content": "All of your collections are listed by default. To customize your list, choose 'Selected' and add collections."
-}
-,
+        "type": "checkbox",
+        "id": "show_block",
+        "label" : "show Block",
+        "default": true
+      },
       {
         "type": "range",
         "id": "number_column",
