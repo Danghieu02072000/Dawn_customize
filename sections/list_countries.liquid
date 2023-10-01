@@ -8,7 +8,7 @@
      </ul>
     {% endfor %}
     {% if section.settings.show_block %}
-        <p>Bạn đã bật </p>
+        <p>{{ section.settings.show_block }}</p>
     {% endif %}
 </div>
 
@@ -23,10 +23,10 @@
         "default": "this is Heading"
       },
       {
-        "type": "checkbox",
+        "type": "number",
         "id": "show_block",
         "label" : "show Block",
-        "default": true
+        "default": 15
       },
       {
         "type": "range",
