@@ -60,6 +60,16 @@
   .blog-show__item img{
     width: 112px;
   }
+  .blog-show {
+    padding: 0 30px;
+  }
+  @media screen and (max-width: 600px) { 
+        .blog-show__list {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+        }
+  }
 </style>
 {% schema %}
   {

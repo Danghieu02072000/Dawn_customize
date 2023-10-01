@@ -10,7 +10,7 @@
                                 <img src="{{ section.settings.img_btn | img_url}}" alt="" width="15px" height="15px" >
                             </div>
                             <div class="hero__wrapper-btn">
-                                <span class="">Discover</span>
+                                <span class="hero__wrapper-btn-text">Discover</span>
                                 <a class="" href="#"> > </a>
                             </div>
                       </div>
@@ -45,7 +45,7 @@
     display: flex;
     gap: 40px;
     justify-content: space-between;
-  }
+  };
   .hero-img {
     width: 45%;
     background-color: #ffbb27;
@@ -110,6 +110,23 @@
       align-items: center;
       text-decoration: none;
     }
+    @media screen and (max-width: 600px) {
+    .hero-wrapper {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+
+    }
+    .hero-infor {
+      width: 100%;
+    }
+    .hero-btn {
+      width: 265px;
+    }
+    .hero__wrapper-btn-text {
+      display: none;
+    }
+}
 </style>
 {% schema %}
   {
