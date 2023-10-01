@@ -3,7 +3,11 @@
 <div class="heading__wrapper">
   <h2 class="heading__text">{{ section.settings.heading }}</h2>
   {% if section.settings.icon_heading %}
-  <img src="{{ section.settings.icon_heading | image_url}}" alt="" width="28px" height="28px" >
+    <img
+      src="{{ section.settings.icon_heading | image_url}}"
+      alt=""
+      width="28px"
+      height="28px">
   {% endif %}
 </div>
 
@@ -13,16 +17,21 @@
       <h2 class="customContainer__title">
         {{ block.settings.title }}</h2>
       <div class="customContainer__item">
-        <div class="customContainer__item-info"> 
-          <h3 class="customContainer__item-heading"> {{ block.settings.item_heading }}</h3>
-          <span class="customContainer__item-text"> {{ block.settings.item_text }}</span>
-          <span class= "customContainer__item-price"> {{ block.settings.item_price | money }} </span>
+        <div class="customContainer__item-info">
+          <h3 class="customContainer__item-heading">
+            {{ block.settings.item_heading }}</h3>
+          <span class="customContainer__item-text">
+            {{ block.settings.item_text }}</span>
+          <span class="customContainer__item-price">
+            {{ block.settings.item_price | money }}
+          </span>
         </div>
-        <div class="customContainer__item-img"> 
-          <img class=""
-          src="{{ block.settings.image | img_url : "master" }}"
-          alt=""
-          loading="lazy">
+        <div class="customContainer__item-img">
+          <img
+            class=""
+            src="{{ block.settings.image | img_url : "master" }}"
+            alt=""
+            loading="lazy">
         </div>
       </div>
     </div>
@@ -61,14 +70,13 @@
     background-color: rgb(246 246 246);
     border-radius: 16px;
   }
-  .customContainer__item-img img{
+  .customContainer__item-img img {
     height: 110px;
     width: auto !important;
   }
   .slider-home {
     max-width: 120rem;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 30px auto 0;
     padding: 50px;
   }
   .heading__text {
@@ -87,52 +95,53 @@
     gap: 40px;
     margin-top: 30px
   }
-  .customContainer__slide {
-  }
+  .customContainer__slide {}
   .customContainer__title {}
   .customContainer__item-img {
     width: 40%;
   }
-      .owl-next {
-        width: 35px;
-        height: 35px;
-        border-radius: 100%;
-        background-color: rgba(0, 0, 0, 0.1) !important;
-    }
-    .owl-next > span {
-        color: #fff;
-        font-size: 28px;
-        line-height: 1;
-    }
-    .owl-prev {
-        width: 35px;
-        height: 35px;
-        border-radius: 100%;
-        background-color: rgba(0, 0, 0, 0.1) !important;
-    }
-    .owl-prev > span {
-        color: #fff;
-        font-size: 28px;
-        line-height: 1;
-    }
-    .owl-nav {
-        position: absolute;
-        top:-20%;
-        right: 30px;
-        display: flex;
-        gap: 5px;
-    }
-    .owl-prev:active,.owl-prev:hover {
-        background-color: #151515 !important;
-    }
-    .owl-next:active,.owl-next:hover {
-        background-color: #151515 !important;
-    }
+  .owl-next {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  .owl-next > span {
+    color: #fff;
+    font-size: 28px;
+    line-height: 1;
+  }
+  .owl-prev {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  .owl-prev > span {
+    color: #fff;
+    font-size: 28px;
+    line-height: 1;
+  }
+  .owl-nav {
+    position: absolute;
+    top: -20%;
+    right: 30px;
+    display: flex;
+    gap: 5px;
+  }
+  .owl-prev:active,
+  .owl-prev:hover {
+    background-color: #151515 !important;
+  }
+  .owl-next:active,
+  .owl-next:hover {
+    background-color: #151515 !important;
+  }
 </style>
 {% schema %}
   {
     "name": "slick slider",
-    "tag" : "section",
+    "tag": "section",
     "class": "slider-home",
     "settings": [
       {
@@ -140,15 +149,13 @@
         "id": "heading",
         "label": "heading",
         "default": "This is Slick Slider"
-      },
-      {
+      }, {
         "type": "image_picker",
-        "id" : "icon_heading",
+        "id": "icon_heading",
         "label": "Icon Heading"
-      },
-      {
+      }, {
         "type": "range",
-        "id" : "num_columns",
+        "id": "num_columns",
         "label": "Number Columns",
         "min": 1,
         "max": 4,
@@ -165,23 +172,22 @@
             "type": "text",
             "id": "title",
             "label": "Title"
-          }, 
+          },
           {
             "type": "image_picker",
             "id": "image",
             "label": "Image"
           },
-                    {
+          {
             "type": "text",
             "id": "item_heading",
             "label": "Item Heading"
           },
-                    {
+          {
             "type": "text",
             "id": "item_text",
             "label": "Item Text"
-          },
-                    {
+          }, {
             "type": "text",
             "id": "item_price",
             "label": "Item Price"
@@ -198,7 +204,6 @@
 {% endschema %}
 <script>
   window.number_columns = {{ section.settings.num_columns}};
- 
 </script>
 {{ "jquery.min.js" | asset_url | script_tag }}
 {{ "owl.carousel.min.js" | asset_url | script_tag }}
