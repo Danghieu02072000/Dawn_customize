@@ -17,7 +17,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p3.png",
+            "image": "shopify:\/\/shop_images\/img_p1.png",
             "item_heading": "Chicken",
             "item_text": "Starting",
             "item_price": "45000"
@@ -27,7 +27,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p4.png",
+            "image": "shopify:\/\/shop_images\/img-p3.png",
             "item_heading": "French",
             "item_text": "Starting",
             "item_price": "80000"
@@ -37,7 +37,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p2.png",
+            "image": "shopify:\/\/shop_images\/img-p4.png",
             "item_heading": "Drinks",
             "item_text": "Starting",
             "item_price": "120000"
@@ -47,7 +47,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img_p1.png",
+            "image": "shopify:\/\/shop_images\/img-p2.png",
             "item_heading": "Pizza",
             "item_text": "Starting",
             "item_price": "140000"
@@ -57,7 +57,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p3.png",
+            "image": "shopify:\/\/shop_images\/img-p4.png",
             "item_heading": "Chicken",
             "item_text": "Starting",
             "item_price": "45000"
@@ -67,7 +67,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p4.png",
+            "image": "shopify:\/\/shop_images\/img_p1.png",
             "item_heading": "French",
             "item_text": "Starting",
             "item_price": "8.00"
@@ -77,7 +77,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/img-p2.png",
+            "image": "shopify:\/\/shop_images\/img-p3.png",
             "item_heading": "Drinks",
             "item_text": "Starting",
             "item_price": "120000"
@@ -213,7 +213,9 @@
       ],
       "settings": {
         "heading": "this is Heading",
-        "number_column": 4
+        "sizes": "xs",
+        "font_size": 16,
+        "radio_color": "red"
       }
     }
   },
