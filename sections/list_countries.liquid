@@ -19,9 +19,14 @@
       {% when "yellow" %}
     <div style="color: yellow ; font-size: {{ section.settings.font_size }}"> Chọn màu vàng</div>
   {% endcase %}
+  <span class="he">Hello</span>
   <span>{{ section.settings.font_size }}</span>
 </div>
-
+<style>
+  .he {
+    font-size: {{ section.settings.font_size }};
+  }
+</style>
 {% schema %}
   {
     "name" : "List UL",
