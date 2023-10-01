@@ -13,11 +13,11 @@
 
   {% case section.settings.radio_color %}
     {% when "red" %}
-    <div style="color: red"> Chọn màu đỏ</div>
+    <div style="color: red; font-size: {{ section.settings.font_size }}"> Chọn màu đỏ</div>
       {% when "blue" %}
-    <div style="color: blue"> Chọn màu xanh</div>
+    <div style="color: blue ; font-size: {{ section.settings.font_size }}"> Chọn màu xanh</div>
       {% when "yellow" %}
-    <div style="color: yellow"> Chọn màu vàng</div>
+    <div style="color: yellow ; font-size: {{ section.settings.font_size }}"> Chọn màu vàng</div>
   {% endcase %}
 </div>
 
@@ -38,12 +38,13 @@
       },
       {
         "type": "range",
-        "id": "number_column",
-        "label": "Number Column",
-         "min": 1,
-        "max": 4,
-        "step": 1,
-        "default": 4
+        "id": "font_size",
+        "label": "font size",
+         "min": 14,
+        "max": 56,
+        "step": 2,
+        "default": 16,
+        "unit": "px"
       },
       {
         "type": "radio",
