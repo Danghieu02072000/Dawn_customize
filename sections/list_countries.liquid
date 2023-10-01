@@ -10,6 +10,15 @@
     {% if section.settings.show_block %}
         <p>{{ section.settings.show_block }}</p>
     {% endif %}
+
+  {% case section.settings.radio %}
+    {% when "red" %}
+    <div style="color: red"> Chọn màu đỏ</div>
+      {% when "blue" %}
+    <div style="color: blue"> Chọn màu xanh</div>
+      {% when "yellow" %}
+    <div style="color: yellow"> Chọn màu vàng</div>
+  {% endcase %}
 </div>
 
 {% schema %}
@@ -36,6 +45,25 @@
         "max": 4,
         "step": 1,
         "default": 4
+      },
+      {
+        "type": "radio",
+        "id": "radio_color",
+        "label": "Choose Color",
+        "options": [
+          {
+            "value": "red",
+            "label": "red"
+          },
+                    {
+            "value": "blue",
+            "label": "Blue"
+          },
+                    {
+            "value": "yellow",
+            "label": "Yellow"
+          }
+        ]
       }
     ],
     "blocks" : [
