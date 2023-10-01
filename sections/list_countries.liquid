@@ -1,9 +1,3 @@
-<style>
-  .he {
-    font-size: {{ section.settings.font_size }} px;
-  }
-</style>
-
 <div class="list-ul">
   <h2 class="list-ul__heading">{{ section.settings.heading }}</h2>
    {% for block in section.blocks %}
@@ -17,16 +11,15 @@
         <p>{{ section.settings.show_block }}</p>
     {% endif %}
 
-  {% case section.settings.radio_color %} >
+  {% case section.settings.radio_color %}
     {% when "red" %}
     <div style="color: red; font-size: {{ section.settings.font_size }} px"> Chọn màu đỏ</div>
       {% when "blue" %}
     <div style="color: blue ; font-size: {{ section.settings.font_size }} px"> Chọn màu xanh</div>
       {% when "yellow" %}
-    <div style="color: yellow ; font-size: {{ section.settings.font_size }} px"> Chọn màu vàng</div>
+    <div style="color: yellow ; font-size: {{ section.settings.font_size }} px "> Chọn màu vàng</div>
   {% endcase %}
-<div style="font-size: {{ section.settings.font_size }}px;">Nội dung với cỡ chữ được điều chỉnh từ range setting</div>
-  <span>{{ section.settings.font_size }}</span>
+  <div style="font-size: {{ section.settings.font_size }}px;">Nội dung với cỡ chữ được điều chỉnh từ range setting</div>
 </div>
 
 {% schema %}
