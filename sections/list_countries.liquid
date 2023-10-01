@@ -1,3 +1,9 @@
+<style>
+  .he {
+    font-size: {{ section.settings.font_size }} px;
+  }
+</style>
+
 <div class="list-ul">
   <h2 class="list-ul__heading">{{ section.settings.heading }}</h2>
    {% for block in section.blocks %}
@@ -22,11 +28,7 @@
   <span class="he">Hello</span>
   <span>{{ section.settings.font_size }}</span>
 </div>
-<style>
-  .he {
-    font-size: {{ section.settings.font_size }} px;
-  }
-</style>
+
 {% schema %}
   {
     "name" : "List UL",
