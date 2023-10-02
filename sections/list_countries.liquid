@@ -19,6 +19,17 @@
       {% when "yellow" %}
     <div style="color: yellow ; font-size: {{ section.settings.font_size }}px"> Chọn màu vàng</div>
   {% endcase %}
+
+  <p>{{ section.settings.article.id }}</p>
+  <p>{{ section.settings.article.title }}</p>
+  <p>{{ section.settings.article.url }}</p>
+
+  <p>{{ section.settings.blog.id }}</p>
+  <p>{{ section.settings.blog.title }}</p>
+  <p>{{ section.settings.blog.url }}</p>
+  <p>{{ section.settings.collection1.title }}</p>
+  <p>{{ section.settings.collection1.id }}</p>
+  <p>{{ section.settings.button_link }}</p>
 </div>
 
 {% schema %}
@@ -31,6 +42,37 @@
         "label": "Heading",
         "default": "this is Heading"
       },
+      {
+  "type": "article",
+  "id": "article",
+  "label": "Article"
+},
+{
+  "type": "url",
+  "id": "button_link",
+  "label": "Button link"
+},
+{
+  "type": "collection_list",
+  "id": "collection_list",
+  "label": "Collections",
+  "limit": 8
+},
+{
+  "type": "blog",
+  "id": "blog",
+  "label": "Blog"
+},
+{
+  "type": "collection",
+  "id": "collection1",
+  "label": "Collection"
+},
+{
+  "type": "collection",
+  "id": "collection",
+  "label": "Collection"
+},
       {
         "type": "select",
         "id": "sizes",
